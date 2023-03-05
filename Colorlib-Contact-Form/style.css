@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(4, 145, 4);
+}
+.container{
+    background-color: rgb(240, 240, 240);
+    border: 1px solid black;
+    width: 343px;
+    display: block;
+   margin: 60px auto;
+   box-shadow:2px 2px 10px grey  ;
+}
+.p1 ,.p2{
+    padding-left: 15px;
+    color: rgb(92, 92, 92);
+}
+.p1{
+    font-size: 29px;}
+.container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.in{
+    width: 90%;
+    height: 25px;
+    margin: 10px;
+
+}
+.text {
+    resize: none;
+    width: 90%;
+    height: 75px;
+    margin: 10px;
+}
+.btn{
+    background-color: rgb(4, 145, 4);
+    width: 90%;
+    height: 30px;
+    margin: 10px;
+    border-style: none;
+    color: white;
+    line-height: 100%;
+    font-size: 10px;
+}
+.btn:hover {
+    background-color: rgb(2, 113, 2);
+}
+.lable{
+    margin: 20px;
+    color: rgb(92, 92, 92);
+    font-size: 13px;
+
+
+}
+.lable a:hover{
+color:rgb(2, 113, 2);}
