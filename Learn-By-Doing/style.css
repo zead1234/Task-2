@@ -1,0 +1,90 @@
+body{
+    background-color: aquamarine;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+}
+.form-section , .text-section{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+
+}
+.form-section{
+    align-items: center;
+    margin-top: 10px;
+    height: 100%;
+}
+
+
+.in{
+    border-style: none;
+    background-color: whitesmoke;
+    width: 75%;
+    margin: 10px;
+}
+.btn{
+    width: 75%;
+    height: 30px;
+    border-radius: 2px;
+    color: white;
+    background-color: aqua;
+    border-color: aqua;
+    margin: 10px;
+}
+.btn:hover{
+    background-color: rgb(105, 253, 203);
+    border-color: rgb(105, 253, 203);
+}
+.form-section hr{
+    width: 75%;
+    
+}
+.form-section label{
+    padding-left: 11px;
+    font-size: 12px;
+    color: grey;
+}
+.text-section h1{
+   margin: 30px 0;
+}
+.text-section p{
+    
+    margin: 30px 0;
+}
+.text-section .learn{
+    margin: 10px 0;
+}
+.text-section .learn button{
+    background-color: whitesmoke;
+    border-top: none;
+    border-left: none;
+    border-color: grey;
+    box-shadow: 1px 1px 1px grey;
+    margin: 0 2px;
+}
+.text-section .learn button:hover{
+    background-color: rgb(207, 204, 204);
+}
+.text-section .learn a{
+    background-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    box-shadow: 1px 1px 1px grey;
+    color: black;
+    text-decoration: none;
+    margin-left: 4px ;
+}
+.text-section .learn a:hover{
+    color: blue;
+    background-color: rgb(207, 204, 204);
+
+
+}
